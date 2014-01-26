@@ -13,4 +13,9 @@ body {
 	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
 	  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 	  color: #999;
+	  margin: 100px 0 0;
+}
+
+#footer p {
+	padding:30px 0 20px;
 }
