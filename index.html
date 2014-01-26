@@ -126,14 +126,18 @@
 	<script src="//flesler-plugins.googlecode.com/svn-history/r27/trunk/jquery.scrollTo/jquery.scrollTo.js"></script>
 	<script src="//flesler-plugins.googlecode.com/svn-history/r27/trunk/jquery.localScroll/jquery.localScroll.js"></script>
 	<script>
-	    $(document).ready(function()
-	    {
-	        // Scroll the whole document
-	        $.localScroll({
-	           target:'body',
-			   offset: -50
-	        });
-	    });
+	jQuery(document).ready(function ($)
+	{
+		$.localScroll.hash({
+			queue:false,
+			duration:800,
+			offset: -50
+	});
+	$('.genesis-nav-menu').localScroll({
+		target:'body',
+		offset: -50
+	});
+	});
 	</script>
 </body>
 </html>
