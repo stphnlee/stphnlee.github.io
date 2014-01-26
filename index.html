@@ -125,5 +125,15 @@
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 	<script src="//flesler-plugins.googlecode.com/svn-history/r27/trunk/jquery.scrollTo/jquery.scrollTo.js"></script>
 	<script src="//flesler-plugins.googlecode.com/svn-history/r27/trunk/jquery.localScroll/jquery.localScroll.js"></script>
+	<script>
+	    $(document).ready(function()
+	    {
+	        // Scroll the whole document
+	        $.localScroll({
+	           target:'body',
+			   offset: -50
+	        });
+	    });
+	</script>
 </body>
 </html>
